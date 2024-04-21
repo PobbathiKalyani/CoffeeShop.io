@@ -1,0 +1,54 @@
+body {
+    background-color: #333;
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.menu-highlights {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu-highlights h1 {
+    color: #FFD700; /* gold color for a bit of flair */
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    background-color: #424242;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.menu-item h2 {
+    margin: 10px 0 5px 0;
+    color: #FFD700;
+}
+
+.menu-item p {
+    color: #ddd;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 18px;
+    color: #FFD700;
+}

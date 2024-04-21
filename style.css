@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px; /* Adjust the size as per your logo's design */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0a500; /* A bright contrast for hover */
+}
+
+.header-Contact {
+    font-size: 0.9em;
+}
+
+.social-media .social-icon {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-media .social-icon img {
+    height: 24px;
+    transition: opacity 0.3s;
+}
+
+.social-media .social-icon img:hover {
+    opacity: 0.7;
+}
+
+
+/* Full-screen hero section styling */
+.hero {
+    background: url('https://wallpapercave.com/wp/wp3583817.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+/* Styling for main headline */
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* Subtext styling */
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+ .btn {
+    background-color: #864013; /* Coffee brown */
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #a35830; /* Lighter shade for hover effect */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 20px;
+    }
+}
+.about-us {
+    padding: 20px;
+    background-color: #222; /* Dark background for the section */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+h1 {
+    color: #f9ca24; /* Gold color for headings to add some warmth */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc; /* Lighter gray for paragraph text */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .shop-image, .text-content {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .shop-image {
+        margin-bottom: 20px;
+    }
+} 
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.quick-links ul,
+.legal-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li,
+.legal-info ul li {
+    margin-bottom: 10px;
+}
+
+.quick-links ul li a,
+.legal-info ul li a,
+.newsletter form input,
+.newsletter form button {
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size: 1rem;
+}
+
+.quick-links ul li a:hover,
+.legal-info ul li a:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    margin-top: 20px;
+}
+
+.newsletter p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter form input {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter form button:hover {
+    background-color: #3700b3;
+}
+
+
+
+

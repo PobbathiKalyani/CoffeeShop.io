@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Coffee</title>
+    <link rel="stylesheet" href="page.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Order Coffee</h1>
+        <form id="order-form">
+            <div class="form-group">
+                <label for="coffee-type">Coffee Type:</label>
+                <select id="coffee-type" name="coffee-type">
+                    <option value="Espresso">Espresso</option>
+                    <option value="Latte">Latte</option>
+                    <option value="Cappuccino">Cappuccino</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="size">Size:</label><br>
+                <input type="radio" id="small" name="size" value="Small" checked>
+                <label for="small">Small</label><br>
+                <input type="radio" id="medium" name="size" value="Medium">
+                <label for="medium">Medium</label><br>
+                <input type="radio" id="large" name="size" value="Large">
+                <label for="large">Large</label>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+            </div>
+            <button type="submit">Place Order</button>
+        </form>
+        <div id="order-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
